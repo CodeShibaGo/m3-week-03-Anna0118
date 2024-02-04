@@ -31,36 +31,35 @@ function showPosts() {
 // 在Searchbar做過濾post
 function filterPosts() {
   // 拿input的值
-  const term = document.querySelector('input').value.toLowerCase();
+  const term = document.querySelector("input").value.toLowerCase();
   // 拿所有post
-  const posts = document.querySelectorAll('.post');
+  const posts = document.querySelectorAll(".post");
   //遍歷post內容字符有沒有符合輸入匡內容
-  posts.forEach(post => {
-    post.style.display = post.textContent.toLowerCase().includes(term) ? 'flex' : 'none';
+  posts.forEach((post) => {
+    post.style.display = post.textContent.toLowerCase().includes(term)
+      ? "flex"
+      : "none";
   });
 }
-
-// 綁定搜索過濾的事件
-document.querySelector('input').addEventListener('input', function () {
-  filterPosts();
-});
 
 // 加載post
 showPosts();
 
+// 在 Search bar 做過濾 post
+document.querySelector("input").addEventListener("input", filterPosts);
+
 // 加載動畫並加載更多post
 function showLoading() {
-  const loader = document.querySelector('.loader');
-  loader.classList.add('show'); // 顯示加載動畫
+  const loader = document.querySelector(".loader");
+  loader.classList.add("show"); // 顯示加載動畫
   setTimeout(() => {
-    loader.classList.remove('show'); // 先隱藏加載動畫
+    loader.classList.remove("show"); // 先隱藏加載動畫
     setTimeout(() => {
       page++; // 再來，增加頁碼
       showPosts(); // 加載新的post
     }, 300);
   }, 1000);
 }
-
 
 window.addEventListener("scroll", function () {
   if (
