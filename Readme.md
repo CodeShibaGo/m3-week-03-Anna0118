@@ -3,10 +3,10 @@
 
 |  #  |    Project     | Demo |
 | :-: | :------------: | :---: |
-| 01  | 表單標題 | Demo |
-| 02  | 無限捲動 | Demo |
-| 03  | 新年倒數計時 | Demo |
-| 04  | FAQ Slider | Demo |
-| 05  | 音樂播放器 | Demo |
-| 06  | 可排序清單 | Demo |
-| 07  | 擴充字 | Demo |
+| 01  | 表單標題 | https://anna0118.github.io/m3-week-03-Anna0118/form_validator/ |
+| 02  | 無限捲動 | https://anna0118.github.io/m3-week-03-Anna0118/Infinite_scroll/ |
+| 03  | 新年倒數計時 | https://anna0118.github.io/m3-week-03-Anna0118/new_year_countdown/ |
+| 04  | FAQ Slider | https://anna0118.github.io/m3-week-03-Anna0118/faq_slider/ |
+| 05  | 音樂播放器 | https://anna0118.github.io/m3-week-03-Anna0118/music_player/ |
+| 06  | 可排序清單 | https://anna0118.github.io/m3-week-03-Anna0118/sortable_list/ |
+| 07  | 猜數字 | https://anna0118.github.io/m3-week-03-Anna0118/speak_number_guessing/ |
